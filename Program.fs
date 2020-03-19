@@ -2,10 +2,15 @@
 open Mono.Cecil
 
 let dogString = "dog"
+let myMethod (parm1:string) (parm2:int)  = 
+  dogString + parm1 + string parm2
+
+
+(*let dogString = "dog"
 let myMethod (parm1:string) (parm2:int) (parm3:int) = 
   if parm3=0 then raise (new ArgumentOutOfRangeException()) else
   let ratio=parm2/parm3
-  dogString + parm1 + string parm2 + ":" + string ratio
+  dogString + parm1 + string parm2 + ":" + string ratio*)
 
 type MethodSymbolCategory =
   | System_Incoming_Parameter
