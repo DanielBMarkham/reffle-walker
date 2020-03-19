@@ -1,0 +1,95 @@
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.paket/*
+
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio and VS Code
+/.vs/
+/.vscode/
+.ionide/
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# =========================
+# Windows detritus
+# =========================
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac desktop service store files
+.DS_Store
+
+# ===================================================
+# Exclude F# project specific directories and files
+# ===================================================
+
+# NuGet Packages Directory
+packages/
+
+# Nuget outputs
+release.cmd
+release.sh
+localpackages/
+paket-files
+/.paket/load/
+*.orig
+docs/content/license.md
+docs/content/release-notes.md
+_NCrunch_Paket
+docs/content/paket-*.md
+!docs/content/paket-folder.md
+*.bak
+System.Management.Automation.dll
+.fake
+docs/tools/FSharp.Formatting.svclog
+docs/content/paket.exe
+TestResult.xml
+*.trx
+tests/Paket.Tests/NuGetConfig/PasswordConfig.xml
+paket.local
+dotnetcore
+.idea
+
+# artifacts
+/bin_netcore/

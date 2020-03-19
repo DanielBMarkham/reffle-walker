@@ -1,10 +1,7 @@
-﻿// Learn more about F# at http://fsharp.org
-
-open System//open System.Reflection
-//open Microsoft.FSharp.Reflection
+﻿open System
 open Mono.Cecil
-let dogString = "dog"
 
+let dogString = "dog"
 let myMethod (parm1:string) (parm2:int) (parm3:int) = 
   if parm3=0 then raise (new ArgumentOutOfRangeException()) else
   let ratio=parm2/parm3
